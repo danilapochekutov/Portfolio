@@ -1,0 +1,20 @@
+.table {
+    margin: 30px auto;
+    width: 580px;
+    display: grid;
+    grid-template-columns: 224px 356px;
+    grid-template-rows: repeat(4, minmax(67px, auto));
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #8d8989;
+    &__info {
+        padding: 8px 12px;
+        height: 67px;
+        border: 1px solid #8d8989;
+    }
+    &__name {
+        padding: 8px 12px;
+        height: 67px;
+        border: 1px solid #8d8989;
+    }
+}
