@@ -75,7 +75,6 @@
             margin-bottom: 0;
             top: -9px;
             left: 12px;
-            // border: 1px solid #1d8216;
         }
     }
     &__triggers {
@@ -95,7 +94,8 @@
         }
     }
     &__input {
-        border: 1px solid #1d8216;
+        border: 2px solid #1d8216;
+        border-radius: 7px;
         position: relative;
         input {
             width: 100%;
@@ -107,7 +107,8 @@
         }
     }
     &__textarea {
-        border: 1px solid #1d8216;
+        border: 2px solid #1d8216;
+        border-radius: 7px;
         position: relative;
         grid-column: 1/3;
         textarea {
