@@ -1,5 +1,6 @@
 .skills {
     padding-top: 126px;
+    background-color: #151515;
     &__wrapper {
         padding-top: 60px;
         display: grid;
@@ -8,15 +9,13 @@
         grid-auto-rows: 270px;
         row-gap: 13px;
         column-gap: 13px;
-        justify-content: space-around;
-       
-        
+        justify-content: space-around; 
     }
     &__item {
-        
+        background-color: #fff;
         width: 100%;
         height: 100%;
-        border: 1px solid black;
+        border: 4px solid #1d8216;
         &-wrapper {    
             margin: 30px 30px 25px 30px;
         }
@@ -46,11 +45,13 @@
             align-content: space-between;
         }
         &-title {
+            color: #fff;
             position: relative;
             padding: 2px 0 0 13px;
             @include before_circle;
         }
         &-counter {
+            color: #fff;
             font-size: 14px;
             line-height: 21px;
         }

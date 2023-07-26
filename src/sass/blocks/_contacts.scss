@@ -1,5 +1,6 @@
 .contacts {
     padding: 120px 0 90px 0;
+    background-color: #151515;
     &__wrapper {
         padding: 0 35px 0 52px;
         display: grid;
@@ -23,6 +24,7 @@
         position: relative;
         padding: 1px 0 0 12px;
         @include before_circle;
+        z-index: 1;
     }
     &__text, &__social {
         margin-top: 20px;
@@ -36,12 +38,24 @@
     .icon {
         &-telegram1 {
             font-size:x-large;
+            &:before {
+                content: "";
+                color: #fff;
+            }
         }
         &-instagram {
             font-size:x-large;
+            &:before {
+                content: "";
+                color: #fff;
+            }
         }
         &-github {
             font-size:x-large;
+            &:before {
+                content: "";
+                color: #fff;
+            }
         }
     }
     &__form {
@@ -61,6 +75,7 @@
             margin-bottom: 0;
             top: -9px;
             left: 12px;
+            // border: 1px solid #1d8216;
         }
     }
     &__triggers {
@@ -70,6 +85,7 @@
         column-gap: 35px;
     }
     &__policy {
+        color: #fff;
         font-size: 12px;
         line-height: 14px;
         display: flex;
@@ -79,6 +95,7 @@
         }
     }
     &__input {
+        border: 1px solid #1d8216;
         position: relative;
         input {
             width: 100%;
@@ -90,6 +107,7 @@
         }
     }
     &__textarea {
+        border: 1px solid #1d8216;
         position: relative;
         grid-column: 1/3;
         textarea {
@@ -104,7 +122,7 @@
     }
     &__btn {
         border: none;
-        color: #000;
+        color: #fff;
         font-size: 14px;
         font-weight: 700;
     }

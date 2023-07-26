@@ -2,7 +2,7 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 60px;
-    color: #000000;
+    color: #ffffff;
     &_fz14 {
         font-size: 14px;
         line-height: 21px;
@@ -22,6 +22,7 @@
         position: relative;
         text-align: center;
         @include before_circle;
+        z-index: 1;
         &:before {
             top:-6;
             left: 50%;

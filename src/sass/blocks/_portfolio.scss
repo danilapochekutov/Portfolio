@@ -1,5 +1,6 @@
 .portfolio {
     padding-top: 120px;
+    background-color: #151515;
     &__wrapper {
         margin-top: 60px;
         display: grid;
@@ -18,8 +19,11 @@
     &__item {
         img {
             width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         &:hover {
+            border: 4px solid #1d8216;
             transform: scale(1.05);
             transition: 0.5s;
         }
