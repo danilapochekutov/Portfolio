@@ -248,6 +248,27 @@
 
         }
     }
+    .table {
+        width: 415px;
+        grid-template-columns: 165px 250px;
+        &__info {
+            font-size: 13px;
+            min-height: 77px;
+        }
+        &__name {
+            font-size: 13px;
+            min-height: 77px;
+        }
+    }
+    .privacy {
+        padding: 40px 10px;
+        h1 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+    }
     
 }
 
@@ -358,6 +379,28 @@
         &__btn {
             margin-top: 20px;
             grid-area: btn;
+        }
+    }
+    .table {
+        width: 310px;
+        height: auto;
+        grid-template-columns: 100px 200px;
+        &__info {
+            font-size: 11px;
+            min-height: 84px;
+        }
+        &__name {
+            font-size: 11px;
+            min-height: 84px;
+        }
+    }
+    .privacy {
+        padding: 40px 10px;
+        h1 {
+            font-size: 20px;
+        }
+        h2 {
+            font-size: 15px;
         }
     }
     
