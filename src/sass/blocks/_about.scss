@@ -2,7 +2,7 @@
     padding-top: 120px;
     background-color: #151515;
     &__wrapper {
-        color: white;
+        color: #c2bcbc;
         display: grid;
         grid-template-columns: 400px 670px;
         grid-template-rows: minmax(245px, auto) minmax(255px, auto);
@@ -57,7 +57,7 @@
         }
         &-text {
             margin-top: 6px;
-            color: white;
+            color: #c2bcbc;
             font-size: 12px;
             line-height: 18px;
         }
